@@ -61,7 +61,7 @@ export function ProductCard({ product }: ProductCardProps) {
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center space-x-2">
             <span className="text-sm font-medium text-secondary-700 transition-colors duration-300">Value:</span>
-            <span className="text-sm font-bold text-primary-600 animate-pulse-custom">{product.value}</span>
+            <span className="text-sm font-bold text-primary-600 animate-pulse-custom">{product.valueScore}/10</span>
           </div>
           <div className="flex items-center space-x-2">
             <span className="text-sm font-medium text-secondary-700 transition-colors duration-300">Stock:</span>

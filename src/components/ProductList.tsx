@@ -8,9 +8,9 @@ export function ProductList() {
     <ProtectedRoute>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 animate-fadeInUp">
         <div className="mb-8 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4 animate-fadeInUp">Our Products</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4 animate-fadeInUp">Fresh Groceries</h2>
           <p className="text-gray-600 text-lg animate-fadeInUp stagger-1">
-            Discover our curated selection of premium products. Use our cart optimizer to get the best value within your budget!
+            Discover our fresh selection of quality groceries. Use our cart optimizer to get the best nutritional value within your budget and carrying capacity!
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-4 rounded-full animate-scaleIn stagger-2"></div>
         </div>

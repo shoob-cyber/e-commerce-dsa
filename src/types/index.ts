@@ -3,11 +3,13 @@ export interface Product {
   name: string;
   price: number;
   weight: number;
-  value: number;
+  valueScore: number;
   stock: number;
   category: string;
   image: string;
   description: string;
+  perishable: boolean;
+  expiryDays?: number;
 }
 
 export interface CartItem {

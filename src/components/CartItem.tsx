@@ -43,7 +43,7 @@ export function CartItem({ item }: CartItemProps) {
               <span>{item.product.weight}kg</span>
             </div>
             <div className="text-sm text-green-600 font-medium animate-pulse-custom">
-              Value: {item.product.value}
+              Quality: {item.product.valueScore}/10
             </div>
           </div>
         </div>

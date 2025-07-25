@@ -44,7 +44,7 @@ export function knapsackOptimize(
       items.push({
         product: cartItem.product,
         quantity: 1,
-        totalValue: cartItem.product.value,
+        totalValue: cartItem.product.valueScore,
         totalWeight: cartItem.product.weight,
         totalPrice: cartItem.product.price
       });
@@ -149,11 +149,11 @@ function greedyOptimize(
   
   cartItems.forEach(cartItem => {
     for (let i = 0; i < cartItem.quantity; i++) {
-      const efficiency = cartItem.product.value / cartItem.product.price;
+      const efficiency = cartItem.product.valueScore / cartItem.product.price;
       items.push({
         product: cartItem.product,
         quantity: 1,
-        totalValue: cartItem.product.value,
+        totalValue: cartItem.product.valueScore,
         totalWeight: cartItem.product.weight,
         totalPrice: cartItem.product.price,
         efficiency
